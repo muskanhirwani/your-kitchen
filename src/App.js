@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import './images/image1.jpg'
+
 
 class App extends React.Component {
   render()
@@ -11,9 +13,7 @@ class App extends React.Component {
   <header id="intro">
       <article className="fullheight">
         <div className="hgroup">
-          <h3>Your Kitchen</h3>
-          <h4>Gorakhpur</h4>
-          <p><a href="#welcome"><img src="https://landonhotel.com/images/misc/arrow.png" alt="down arrow"/></a></p>
+          {/* <p><a href="#welcome"><img src="https://landonhotel.com/images/misc/arrow.png" alt="down arrow"/></a></p> */}
         </div>
       </article>
 
@@ -33,7 +33,7 @@ class App extends React.Component {
         <div className="scene" id="welcome">
           <article className="content">
             <div className="gallery">
-              <img src="https://landonhotel.com/images/hotel/intro_room.jpg" alt="Intro Gallery Room Sample Pictures"/>
+              <img src="./images/image1.jpg" alt="Intro Gallery Room Sample Pictures"/>
                 <img src="https://landonhotel.com/images/hotel/intro_pool.jpg" alt="Intro Gallery Pool Sample Pictures"/>
                   <img src="https://landonhotel.com/images/hotel/intro_dining.jpg" alt="Intro Gallery Dining Sample Pictures"/>
                     <img src="https://landonhotel.com/images/hotel/intro_attractions.jpg" alt="Intro Gallery Attractions Sample Pictures"/>
